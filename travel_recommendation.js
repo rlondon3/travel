@@ -1,5 +1,5 @@
 async function getData() {
-	const url = '../travel_recommendation_api.json';
+	const url = './travel_recommendation_api.json';
 	try {
 		const response = await fetch(url);
 		if (!response.ok) {

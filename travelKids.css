@@ -1,7 +1,7 @@
 body {
 	font-family: Arial, sans-serif;
 	margin: 0;
-	background-image: url('../assets/ibiza.jpg');
+	background-image: url('./ibiza.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
