@@ -9,7 +9,7 @@
 				{
 					"name": "Sydney, Australia",
 
-					"imageUrl": "../assets/australia-beautiful-places.jpg",
+					"imageUrl": "../australia-beautiful-places.jpg",
 
 					"description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
 				},
@@ -17,7 +17,7 @@
 				{
 					"name": "Melbourne, Australia",
 
-					"imageUrl": "../assets/melbourne.jpg",
+					"imageUrl": "../melbourne.jpg",
 
 					"description": "A cultural hub famous for its art, food, and diverse neighborhoods."
 				}
@@ -33,7 +33,7 @@
 				{
 					"name": "Tokyo, Japan",
 
-					"imageUrl": "../assets/tokyo.jpg",
+					"imageUrl": "../tokyo.jpg",
 
 					"description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
 				},
@@ -41,7 +41,7 @@
 				{
 					"name": "Kyoto, Japan",
 
-					"imageUrl": "../assets/kyoto.jpg",
+					"imageUrl": "../kyoto.jpg",
 
 					"description": "Known for its historic temples, gardens, and traditional tea houses."
 				}
@@ -57,7 +57,7 @@
 				{
 					"name": "Rio de Janeiro, Brazil",
 
-					"imageUrl": "../assets/rio.jpg",
+					"imageUrl": "../rio.jpg",
 
 					"description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
 				},
@@ -65,7 +65,7 @@
 				{
 					"name": "São Paulo, Brazil",
 
-					"imageUrl": "../assets/sp.jpg",
+					"imageUrl": "../sp.jpg",
 
 					"description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
 				}
@@ -79,7 +79,7 @@
 
 			"name": "Angkor Wat, Cambodia",
 
-			"imageUrl": "../assets/aw.jpeg",
+			"imageUrl": "../aw.jpeg",
 
 			"description": "A UNESCO World Heritage site and the largest religious monument in the world."
 		},
@@ -89,7 +89,7 @@
 
 			"name": "Taj Mahal, India",
 
-			"imageUrl": "../assets/tmh.jpg",
+			"imageUrl": "../tmh.jpg",
 
 			"description": "An iconic symbol of love and a masterpiece of Mughal architecture."
 		}
@@ -101,7 +101,7 @@
 
 			"name": "Bora Bora, French Polynesia",
 
-			"imageUrl": "../assets/bb.jpg",
+			"imageUrl": "../bb.jpg",
 
 			"description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
 		},
@@ -111,7 +111,7 @@
 
 			"name": "Copacabana Beach, Brazil",
 
-			"imageUrl": "../assets/cb.jpg",
+			"imageUrl": "../cb.jpg",
 
 			"description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
 		}
