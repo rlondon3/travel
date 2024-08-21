@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link
+			rel="stylesheet"
+			href="../styles/travelKids.css"
+		/>
+		<title>Travel Kids</title>
+	</head>
+	<body>
+		<div class="navbar">
+			<div class="links">
+				<a href="travel_recommendation.html">Home</a>
+				<a href="about.html">About Us</a>
+				<a href="contact.html">Contact Us</a>
+			</div>
+			<div class="search-container">
+				<input
+					type="text"
+					id="searchInput"
+					placeholder="Enter destination or keywords..."
+				/>
+				<button
+					class="search-btn"
+					onclick="search()"
+				>
+					Search
+				</button>
+				<button
+					class="reset-btn"
+					onclick="resetSearch()"
+				>
+					Reset
+				</button>
+			</div>
+		</div>
+		<div class="container">
+			<div class="sidebar">
+				<div class="icons-wrapper">
+					<div class="fb-icon">
+						<img
+							src="../assets/5296499_fb_facebook_facebook logo_icon.svg"
+							alt="facebook icon"
+						/>
+					</div>
+					<div class="tw-icon">
+						<img
+							src="../assets/5296514_bird_tweet_twitter_twitter logo_icon.svg"
+							alt="twitter icon"
+						/>
+					</div>
+					<div class="yt-icon">
+						<img
+							src="../assets/5296521_play_video_vlog_youtube_youtube logo_icon.svg"
+							alt="youtube icon"
+						/>
+					</div>
+					<div class="ig-icon">
+						<img
+							src="../assets/5296765_camera_instagram_instagram logo_icon.svg"
+							alt="instagram icon"
+						/>
+					</div>
+				</div>
+			</div>
+			<div class="header">
+				<h1>Rediscover Your Imagination Through Travel</h1>
+				<p>
+					Travel Kids tours offer a unique adventure, designed to reignite the
+					wonder and curiosity of childhood in every traveler. By exploring
+					vibrant cultures, breathtaking landscapes, and engaging in playful
+					activities, these tours inspire a sense of joy and discovery. Whether
+					you're young or simply young at heart, Travel Kids creates memorable
+					experiences that reconnect you with your inner child, reminding you
+					that the world is a playground waiting to be explored.
+				</p>
+				<button>Book</button>
+			</div>
+			<div
+				id="results-wrapper"
+				class="results-wrapper"
+			>
+				<hr />
+				<h2>Search Results</h2>
+				<div
+					id="results"
+					style="
+						background-color: transparent;
+						width: min-content;
+						height: min-content;
+						border-radius: 6px;
+						align-self: self-end;
+						display: none;
+					"
+				></div>
+				<p
+					id="no-results"
+					style="display: none; width: 100%"
+				>
+					No results to display
+				</p>
+			</div>
+		</div>
+	</body>
+	<script src="./javascript/travel_recommendation.js"></script>
+</html>
