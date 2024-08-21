@@ -1,0 +1,44 @@
+.team-cards {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 60px;
+	justify-content: center;
+	margin-left: 170px;
+	margin-top: 20px;
+}
+
+.card {
+	background: transparent;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	padding: 15px;
+	width: 200px;
+	text-align: center;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card .avatar {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-bottom: 10px;
+}
+
+.card h4 {
+	margin: 10px 0 5px;
+	font-size: 18px;
+}
+
+.card p {
+	margin: 0;
+	color: white;
+	font-size: 14px;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 2fr 10fr 0fr;
+	z-index: 3;
+	position: relative;
+}
